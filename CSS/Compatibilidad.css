@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    background: url('../IMG/99.webp') no-repeat center center / cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    margin-top: 35vh; 
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+p {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 8px 0;
+    letter-spacing: 1px;
+}
+
+
+.score {
+    font-size: 6rem;
+    font-weight: 900; 
+    margin: 5px 0 0 0;
+    line-height: 1;
+}
+
+
+p strong {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
